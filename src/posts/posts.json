@@ -1,0 +1,17 @@
+[
+  {
+    "image": "1.jpg",
+    "title": "Título 1",
+    "description": "Descripción 1"
+  },
+  {
+    "image": "1.jpg",
+    "title": "Título 2",
+    "description": "Descripción 2"
+  },
+  {
+    "image": "2.jpeg",
+    "title": "Título 1",
+    "description": "Descripción 1"
+  }
+]
