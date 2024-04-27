@@ -1,6 +1,6 @@
 # Coltricapin
 
-Dise;o de pagina para el Colegio Triniddad Camacho Pinzon
+Diseño de pagina para el Colegio Triniddad Camacho Pinzon
 
 ## Como ejecutarlo?
 
