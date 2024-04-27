@@ -14,7 +14,7 @@ function Routess() {
             <Route path="/" exact element={<Home/>} />
             <Route path="/About" element={<About/>} />
             <Route path="/Contact" element={<Contact/>} />
-            <Route path="formulario" element={<Formulario />} />
+            <Route path="/Formulario" element={<Formulario />} />
             <Route path="Login" element={<Login />} />
             <Route path="*" element={<NotFound />} />
             </Routes>
