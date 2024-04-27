@@ -10,7 +10,7 @@ function MyNavbar() {
         { path: "/", text: "Home" },
         { path: "/About", text: "About" },
         { path: "/Contact", text: "Contact" },
-        { path: "/Contact2", text: "Contact2" }
+        { path: "/Formulario", text: "Formulario" }
         // Agrega más rutas aquí según sea necesario
     ];
 
