@@ -1,17 +1,17 @@
 [
   {
-    "image": "1.jpg",
-    "title": "Título 1",
-    "description": "Descripción 1"
+    "image": "secundaria.jpg",
+    "title": "Sede Secundaria",
+    "description": ""
   },
   {
-    "image": "1.jpg",
-    "title": "Título 2",
-    "description": "Descripción 2"
+    "image": "primaria.jpg",
+    "title": "Sede Primaria",
+    "description": ""
   },
   {
-    "image": "2.jpeg",
-    "title": "Título 1",
-    "description": "Descripción 1"
+    "image": "coltricapin.PNG",
+    "title": "Secundaria",
+    "description": ""
   }
 ]
