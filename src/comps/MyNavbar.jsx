@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import { Link } from 'react-router-dom';
+import logo from '../imgs/logo.ico'
 import Routess from './Routess';
 import Login from './Login';
 
@@ -16,7 +17,7 @@ function MyNavbar() {
 
     return (
         <Navbar bg="dark" variant="dark">
-            <Navbar.Brand as={Link} to="/">Mi Sitio</Navbar.Brand>
+            <img src={logo} alt="Logo" style={{ maxHeight: '100%', maxWidth: '100%' }} />
             <Nav className="mr-auto">
                 {routePaths.map(route => (
                     <Nav.Link key={route.path} as={Link} to={route.path}>{route.text} </Nav.Link>
