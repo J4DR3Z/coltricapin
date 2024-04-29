@@ -6,7 +6,8 @@ import x from '../imgs/1690643640twitter-x-icon-png.png';
 import lin from '../imgs/317750_linkedin_icon.png';
 import Popover from '@mui/material/Popover';
 import tomas from '../imgs/img-estudiantes/tomas.jpg';
-
+import javier from '../imgs/img-estudiantes/javier.jpg'
+import julian from '../imgs/img-estudiantes/julian.jpg'
 const Footer = () => {
     const [anchorEl1, setAnchorEl1] = useState(null);
     const [anchorEl2, setAnchorEl2] = useState(null);
@@ -30,15 +31,15 @@ const Footer = () => {
             <div className='B1'>
                 <div className='titulo'><h4>Contactenos</h4></div>
                 <div className='estudiantes'>
-                    <a href="./tomas" onClick={(event) => handleClick(event, setAnchorEl1)}>
-                        <p>Tomas</p>
-                    </a>
-                    <a href="./javier" onClick={(event) => handleClick(event, setAnchorEl2)}>
-                        <p>Javier</p>
-                    </a>
-                    <a href="./julian" onClick={(event) => handleClick(event, setAnchorEl3)}>
-                        <p>Julian</p>
-                    </a>
+                        <a href="./tomas" onClick={(event) => handleClick(event, setAnchorEl1)} className="nombre-link">
+                            <p>Tomas</p>
+                        </a>
+                        <a href="./javier" onClick={(event) => handleClick(event, setAnchorEl2)} className="nombre-link">
+                            <p>Javier</p>
+                        </a>
+                        <a href="./julian" onClick={(event) => handleClick(event, setAnchorEl3)} className="nombre-link">
+                            <p>Julian</p>
+                        </a>
                     <Popover
                         open={open1}
                         anchorEl={anchorEl1}
@@ -77,11 +78,11 @@ const Footer = () => {
                     >
                         <div className='popoverContent'>
                             <div className='popoverImage'>
-                                <img src={ig} alt="" />
+                                <img src={javier} alt="" />
                             </div>
                             <div>
                                 <h4>Javier David Villanueva Bernal</h4>
-                                <p>Código:</p>
+                                <p>Código: 2215503</p>
                             </div>
                         </div>
                     </Popover>
@@ -100,11 +101,11 @@ const Footer = () => {
                     >
                         <div className='popoverContent'>
                             <div className='popoverImage'>
-                                <img src={x} alt="" />
+                                <img src={julian} alt="" />
                             </div>
                             <div>
                                 <h4>Julian Andres Jaramillo Benavides</h4>
-                                <p>Código:</p>
+                                <p>Código: </p>
                             </div>
                         </div>
                     </Popover>
@@ -123,4 +124,4 @@ const Footer = () => {
     );
 }
 
-export default Footer;
+export default Footer;

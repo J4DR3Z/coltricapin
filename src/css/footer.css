@@ -5,6 +5,10 @@
     align-items: center;
     width: 100%;
 }
+.nombre-link {
+    color: #FFFFFF; 
+    text-decoration: none; 
+}
 
 .B1 {
     flex: 1;
