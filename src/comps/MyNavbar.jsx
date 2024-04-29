@@ -17,7 +17,7 @@ function MyNavbar() {
 
     return (
         <Navbar bg="dark" variant="dark">
-            <img src={logo} alt="Logo" style={{ maxHeight: '100%', maxWidth: '100%' }} />
+            <img src={logo} alt="Logo" style={{ maxHeight: '8vh', maxWidth: '8vh' }} />
             <Nav className="mr-auto">
                 {routePaths.map(route => (
                     <Nav.Link key={route.path} as={Link} to={route.path}>{route.text} </Nav.Link>
