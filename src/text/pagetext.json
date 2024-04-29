@@ -1,0 +1,17 @@
+{
+    "acordeon": [
+      {
+        "titulo": "Mision",
+        "descripcion": "Descripción del Mision"
+      },
+      {
+        "titulo": "Vision",
+        "descripcion": "Descripción del Vision"
+      },
+      {
+        "titulo": "Perfil",
+        "descripcion": "Descripción del Perfil"
+      }
+    ]
+  }
+  
