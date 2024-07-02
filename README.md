@@ -29,11 +29,6 @@ para instalar modulos y librerias
 ### `node app.js`
 para iniciar el backend
 
-Si todo esta correctamente se mostrara el siguiente mensaje "server is running on port 5000"
-
-### `bash 1.sh`
-Si presenta algun error,  intente esperar uno o dos minutos y ejecutar el comando nuevamente
-
 Si todo fue correctamente espere a que la instalacion de dependencias termine e inicie el servidor para el backend mostrando el siguiente mensaje 
 ![image](https://github.com/J4DR3Z/coltricapin/assets/70348839/16826a43-94d0-43da-818a-050f69e8ec18)
 
