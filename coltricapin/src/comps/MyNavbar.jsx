@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import { Link } from 'react-router-dom';
 import logo from '../imgs/logo.ico'
 import Routess from './Routess';
-import Login from './Login';
+import Login from './Registro/Login';
 
 function MyNavbar() {
     const routePaths = [
@@ -22,7 +22,6 @@ function MyNavbar() {
                 {routePaths.map(route => (
                     <Nav.Link key={route.path} as={Link} to={route.path}>{route.text} </Nav.Link>
                 ))}
-                <Login/>
             </Nav>
         </Navbar>
     );
