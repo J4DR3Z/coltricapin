@@ -15,7 +15,7 @@ Primero,  da click en el botón verde Con la palabra "Code", posteriormente en e
 Despues de ello, se le descargara en el lugar que haya seleccionado anteriormente si es por defecto estara en la carpeta descargas, luego click derecho y descomprima aqui. espere a que se descomprima, una vez se haya descomprimido abra visual studio code en archivo o file da en abrir carpeta y busca la carpeta descomprimida.
 > [!CAUTION]
 > > Asegurese de que al abrir la carpeta en visual studio code, la seccion Explorer de archivos, aparezcan las carpetas backend y coltricapin al mismo nivel que se muestra a continuacion
-![image](https://github.com/J4DR3Z/coltricapin/assets/70348839/1d767448-2c04-4b37-9ca7-424ed39aa3e0)
+>> ![image](https://github.com/J4DR3Z/coltricapin/assets/70348839/1d767448-2c04-4b37-9ca7-424ed39aa3e0)
 
 Luego de esto, en abra una terminal en visual studio code dando click en los tres puntos junto a la sección "run" en  la parte superior, 
 ![image](https://github.com/J4DR3Z/coltricapin/assets/70348839/994bc67f-8f1d-436a-b52d-f2bdb869dade)
