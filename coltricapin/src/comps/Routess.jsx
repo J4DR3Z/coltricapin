@@ -6,6 +6,8 @@ import Home from './Home';
 import NotFound from './NotFound';
 import Formulario from './Formulario';
 import GuestContent from './Registro/Invitado';
+import YaRegistro from './Registro/YaRegister';
+import Login from './Registro/Login'
 
 function Routess({ user, isGuest }) {
   return (
@@ -15,12 +17,15 @@ function Routess({ user, isGuest }) {
         <>
           <Route path="/About" element={<About />} />
           <Route path="/Contact" element={<Contact />} />
-          <Route path="/Formulario" element={<Formulario />} />
+          <Route path="/Formulario" element={<YaRegistro />} />
           <Route path="*" element={<NotFound />} />
         </>
       ) : isGuest ? (
         <>
-          <Route path="/Formulario" element={<GuestContent />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/About" element={<GuestContent/>} />
+          <Route path="/Contact" element={<GuestContent />} />
+          <Route path="/Formulario" element={<Formulario />} />
           <Route path="*" element={<NotFound />} />
         </>
       ) : (

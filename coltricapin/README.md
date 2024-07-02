@@ -3,6 +3,9 @@
 Diseño de pagina para el Colegio Triniddad Camacho Pinzon
 
 ## Como ejecutarlo?
+> [!CAUTION]
+> Asegurese de iniciar sesión en su cuenta de github antes de continuar .
+
 
 Primero,  da click en el booton verde Con la palabra "Code", posteriormente en el menu emergente dirijase a la seccion Codespaces dando click en ella y finalmente de click sobre el simbolo " + ":
 ![image](https://github.com/J4DR3Z/coltricapin/assets/70348839/6b059e6d-33ed-44e2-9b67-ef5131e6b1ee)
