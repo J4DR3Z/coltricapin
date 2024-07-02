@@ -5,7 +5,7 @@ cd coltricapin
 npm install dependences
 cd ../ 
 cd backend
-node app.js
+gnome-terminal -x node app.js
 cd ../ 
 cd coltricapin 
 npm start coltricapin
