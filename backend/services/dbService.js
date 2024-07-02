@@ -12,7 +12,7 @@ const knex = require('knex')({
   debug: true // Activar modo de depuración para obtener más detalles de errores
 });
 
-const table = 'users';
+const table = 'usuarios';
 
 const dbService = () => {
   const getUsuario = async () => {
